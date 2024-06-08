@@ -1,0 +1,56 @@
+.cardHeading{
+    font-size: 1.3rem;
+    color:#3CC3F2;
+    font-weight: 100;
+    line-height: 1;
+    margin-bottom: 1rem;
+}
+.card{
+    background: #122949;
+    width: 13.5rem;
+    height: 10rem;
+    border-radius: 10px;
+    padding: 1rem;
+    color :white;
+    font-weight: 300;
+
+}
+.card img{
+    width:50px;
+}
+.desc{
+    font-size: 0.8rem;
+}
+.titleSection{
+   display: flex;
+   align-items: center;
+   justify-content:center;
+   gap: 0.5rem;
+
+}
+
+@media (max-width: 768px) {
+    .cardHeading{
+        font-size: 2.2rem;
+    }
+    .card{
+        width: 80vw;
+        height: 30vh;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .card img{
+        width:5rem;
+    }
+    .desc{
+        font-size: 1.3rem;
+    }
+    .titleSection{
+       display: flex;
+       align-items: center;
+       justify-content:center;
+       gap: 0.5rem;
+    
+    }
+}
